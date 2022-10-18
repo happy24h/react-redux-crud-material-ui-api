@@ -58,7 +58,6 @@ export default function Home() {
           </TableHead>
           <TableBody>
             {users &&
-              users.length > 0 &&
               users.map((user) => (
                 <TableRow
                   key={user.id}

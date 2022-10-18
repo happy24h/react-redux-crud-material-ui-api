@@ -45,6 +45,6 @@ export const editUser = (user) => {
   return async (dispatch) => {
     await servicesAPI.updateUser(user);
     dispatch(edit_user());
-    dispatch(getUsers());
+    dispatch(listUsers());
   };
 };

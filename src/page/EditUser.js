@@ -100,7 +100,12 @@ function EditUser() {
           onChange={(e) => handleInputChange(e)}
         />{" "}
       </Box>
-      <Button sx={{ my: 2 }} variant="contained" onClick={() => handleEdit()}>
+      <Button
+        sx={{ my: 2 }}
+        variant="contained"
+        type="submit"
+        onClick={() => handleEdit()}
+      >
         Update
       </Button>
     </Box>
